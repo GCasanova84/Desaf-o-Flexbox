@@ -1,0 +1,12 @@
+.button-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .button {
+    border: none;
+    background-color: #81f4e1;
+    padding: 1rem 2rem;
+  }
+}
