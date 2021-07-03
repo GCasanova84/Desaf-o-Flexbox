@@ -1,0 +1,25 @@
+.flag-container {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Courier New', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .flag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    height: 160px;
+    &__item {
+      flex-basis: 200px;
+      flex-grow: 1;
+      padding: 0.75em 0;
+      margin: 0.75em;
+      text-align: center;
+      background-color: #ff729f;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.title {
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  &__item {
+    margin-bottom: 0.5rem;
+  }
+}
